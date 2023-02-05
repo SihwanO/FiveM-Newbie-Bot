@@ -1,0 +1,15 @@
+{
+    "SihwanO" : {
+        "token" : "",
+        "guild" : "",
+        "nowbie_channel" : "",
+        "role" : ""
+    },
+    "sql" : {
+        "Table_name": "",
+        "host" : "localhost",
+        "user" : "root",
+        "password" : "",
+        "db_name" : ""
+    }
+}
