@@ -1,5 +1,5 @@
 # FiveM Newbie Bot : FiveM 뉴비인증 봇
-
+.
 **2차 배포 시에는 출처를 필수로 입력해주세요! (출처: https://github.com/SihwanO)**
 - 해당 봇은 discord.py 2.0 임을 미리 알려드립니다
 
@@ -39,4 +39,5 @@
 
 1. **python 3.8 버전** 이상으로 다운로드해주세요.
 2. **ImportError: cannot import name 'ui' from 'discord'** <- 에러 해결법: pip install discord.py==2.1.0
+.
 .
