@@ -39,5 +39,3 @@
 
 1. **python 3.8 버전** 이상으로 다운로드해주세요.
 2. **ImportError: cannot import name 'ui' from 'discord'** <- 에러 해결법: pip install discord.py==2.1.0
-.
-.
