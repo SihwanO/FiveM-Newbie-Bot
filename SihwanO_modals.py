@@ -40,7 +40,7 @@ class MainModal(ui.Modal, title="뉴비인증"):
                 SQL.execute(f'update {Table_name} set state = "1" where code = "{nowbie_codes}"')
                 Database.commit()
                 await interaction.response.send_message('인증이 정상적으로 완료 되었습니다', ephemeral=True)
-                return await interaction.user.add_roles(interaction.guild.get_role(SihwanOs['SihwanO']['role']))
+                return await interaction.user.add_roles(interaction.guild.get_role(int(SihwanOs['SihwanO']['role'])))
             
             elif SihwanO_check2[2] >= 1:
                 return await interaction.response.send_message('입력하신 코드는 이미 인증된 코드 입니다.', ephemeral=True)
